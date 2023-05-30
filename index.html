@@ -1,56 +1,293 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Midjouney</title>
-    <link rel="shortcut icon" href="https://raw.githubusercontent.com/iglnierod/svg/main/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css" type="text/css">
-</head>
+    <link
+      rel="shortcut icon"
+      href="https://raw.githubusercontent.com/iglnierod/svg/main/logo.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <div class="wrap">
-        <header>
-            <nav>
-                <a href="#"><span>Inicio</span></a>
-                <a href="#"><span>Explorar</span></a>
-                <a href="#"><span>Tienda</span></a>
-                <a href="#"><span>Sobre Nosotros</span></a>
-            </nav>
-        </header>
-        <main>
-            <section class="intro">
-                <img src="./img/salon.jpeg" width="550px">
-                <article>
-                    <h1>Diseña</h1>
-                    <h3>con los mejores cuadros</h3>
-                </article>
-            </section>
-            <nav class="busqueda">
-                <div>
-                    <span>Filtrar</span>
-                    <span class="material-icons-round">tune</span>
-                </div>
-                <div class="buscar">
-                    <input type="text" name="filtrar" id="filtrar" placeholder="Pósters de gatos...">
-                    <span class="material-icons-round">search</span>
-                </div>
-            </nav>
-            <section class="main">
-                <div class="box">
-                    <div class="imagenes">
-                        <img src="./img/cuadro1.png"
-                            alt=" Sumi - e inspired 2D artwork, Norwegian Forest cat serenity, graceful, bamboo trees, Japanese ink painting aesthetic, delicate brushwork and fluid lines, ornate detailing and harmonious washes of ink, majestic creature, tranquility, created by Katsushika Hokusai and Qi Baishi, "
-                            width="100%">
-                    </div>
-                    <div class="informacion">
-                        <span id="titulo">Gato Gato Gato</span>
-                        <span id="precio">33€</span>
-                    </div>
-                </div>
-            </section>
-        </main>
-    </div>
-</body>
+      <header>
+        <nav>
+          <a href="#"><span>Inicio</span></a>
+          <a href="#"><span>Explorar</span></a>
+          <a href="#"><span>Tienda</span></a>
+          <a href="#"><span>Sobre Nosotros</span></a>
+        </nav>
+      </header>
+      <main>
+        <section class="intro">
+          <img src="./img/salon.jpeg" width="550px" />
+          <article>
+            <h1>Decora</h1>
+            <h3>con los mejores cuadros</h3>
+          </article>
+        </section>
+        <nav class="busqueda">
+          <div>
+            <span>Filtrar</span>
+            <span class="material-icons-round">tune</span>
+          </div>
+          <div class="buscar">
+            <input
+              type="text"
+              name="filtrar"
+              id="filtrar"
+              placeholder="Pósters de gatos..."
+            />
+            <span class="material-icons-round">search</span>
+          </div>
+        </nav>
+        <section class="main">
+          <section class="columna1">
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro1.png"
+                  alt="Sumi - e inspired 2D artwork, Norwegian Forest cat serenity, graceful, bamboo trees, Japanese ink painting aesthetic, delicate brushwork and fluid lines, ornate detailing and harmonious washes of ink, majestic creature, tranquility, created by Katsushika Hokusai and Qi Baishi,"
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Gato estilo chino</span>
+                <span id="precio">30€</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro5.jpg"
+                  alt="ultra realistic photography, perfectly centered medium upper shot of Aloy from horizon zero dawn, creatures from horizon zero dawn jungle cliffs in the background, looking at viewer, fashion pose, extremely detailed eyes, detailed symmetric realistic face, extremely detailed natural texture, detailed peach fuzz, messy hair, masterpiece, absurdres, award winning photo by lee jeffries, nikon d850 film stock photograph, kodak portra 400 camera f1.6 lens,  depth of field, extremely detailed, amazing, fine detail, rich colors, hyper realistic lifelike texture, dramatic lighting, unrealengine, trending on artstation, cinestill 800 tungsten, photo realistic, RAW photo, TanvirTamim, high quality, highres, sharp focus, extremely detailed, cinematic lighting, 8k uhd, high definition, cinematic, neoprene, behance contest winner, featured on unsplash, cgsociety, unreal engine 5, ultra sharp focus"
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Horizon Zero Dawn</span>
+                <span id="precio">50€</span>
+              </div>
+            </div>
+          </section>
 
+          <section class="columna2">
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro2.png"
+                  alt="A contented cat snuggled up in a corner of the room, enjoying the view of the iconic New York skyline."
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Gato en Nueva York</span>
+                <span id="precio">25€</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro6.jpg"
+                  alt="muted chinese ink painting, muted colors, rice paper texture, splash paint, Ninh Binh town, boat, red sun,  Old cottage. Lakeside. Morning light. Clouds wet to wet techniques."
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Pintura clásica china</span>
+                <span id="precio">33€</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro13.png"
+                  alt="A vintage, cherry red LeMans car, parked in a sun - drenched garage with a bright white light shining down on it, photo contest winner, 4k, photorealistic,"
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Coche de LeMans</span>
+                <span id="precio">35€</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="columna3">
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro3.png"
+                  alt="Modern porsche 911 racing through a desert beach, orange and purple sunset, panoramic view, photorealistic,"
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Porsche 911</span>
+                <span id="precio">25€</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro10.jpg"
+                  alt="castle, natural highlights, bright colours, realistic wide angle, mystical environment, realistic textures, realistic shading, centered, inked lines and watercolour, UHD, photo, 8k resolution, dark, dynamic action, pale washed out style, camera Holga, retro, dreamy nostalgic, soft focus, vignetting, light leaks, medium photography, gloomy artistic painterly ethereal, whimsical"
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Castillo mágico</span>
+                <span id="precio">40€</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro11.jpg"
+                  alt="(2d cute anime:1.3). Irene Bae JooHyun, searching in ancient relic, detailed clothing. vixip, full body portrait, design by Yusuke Kozaki, oil by Gregory Manchess. stunningly beautiful, destroyed building, Water reflection, soak_feet. Hand drawing illustration, highly detailed. cinematic Lighting. Perfect composition. By sumic.mic"
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Ruinas griegas</span>
+                <span id="precio">30€</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="columna4">
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro4.png"
+                  alt="Sumi - e inspired 2D artwork, Norwegian Forest cat serenity, graceful, bamboo trees, Japanese ink painting aesthetic, delicate brushwork and fluid lines, ornate detailing and harmonious washes of ink, majestic creature, tranquility, created by Katsushika Hokusai and Qi Baishi,"
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Gato estilo chino</span>
+                <span id="precio">63€</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro9.png"
+                  alt="Norwegian Forest Cat in a high tree forest staring at the camera from a branch of a high tree, photorealistic"
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Gato noruego</span>
+                <span id="precio">25€</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro14.png"
+                  alt="A white Ford GT90, located in a big hangar, white background, 4k, photorealistic"
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Ford GT90</span>
+                <span id="precio">40€</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="columna5">
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro7.jpg"
+                  alt="muted chinese ink painting, muted colors, rice paper texture, splash paint, Ninh Binh town, boat, red sun,  Old cottage. Lakeside. Morning light. Clouds wet to wet techniques."
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Barco embotellado</span>
+                <span id="precio">70€</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imagenes">
+                <img
+                  src="./img/cuadro8.jpg"
+                  alt="Worlds within Worlds. Vermilon. Audrey Kawasaki Albert Gleizes Head and shoulders portrait. Hyper-realistic. Interdimensional. Perfect eyes."
+                  width="100%"
+                />
+              </div>
+              <div class="informacion">
+                <span id="titulo">Cuadro Interdimensional</span>
+                <span id="precio">50€</span>
+              </div>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+    <footer>
+        <section class="redes">
+            <!--Twitter-->
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="38" height="38" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a09a9a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                </svg>
+            </a>
+            <!--Instagram-->
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="38" height="38" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a09a9a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="4" y="4" width="16" height="16" rx="4" />
+                    <circle cx="12" cy="12" r="3" />
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                  </svg>
+            </a>
+            <!--Facebook-->
+            <a href="#" id="facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="38" height="38" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a09a9a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg>
+            </a>
+        </section>
+        <section class="autor">
+            <div class="nombre">
+                <h5>
+                    <span>R</span>
+                    <span>o</span>
+                    <span>d</span>
+                    <span>r</span>
+                    <span>i</span>
+                    <span>g</span>
+                    <span>o</span>
+                    <span>&nbsp;</span>
+                    <span>I</span>
+                    <span>g</span>
+                    <span>l</span>
+                    <span>e</span>
+                    <span>s</span>
+                    <span>i</span>
+                    <span>a</span>
+                    <span>s</span>
+                </h5>
+            </div>
+            <!--GitHub-->
+            <div class="github">
+                <a href="https://github.com/iglnierod/" target="_blank">
+                    <svg id="github" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="38" height="38" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a09a9a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                    </svg>
+                </a>
+            </div>
+        </section>
+    </footer>
+  </body>
 </html>
