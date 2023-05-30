@@ -1,0 +1,162 @@
+/*ICONS*/
+/*GOOGLE ICONS*/
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
+/* FONTS */
+/* GOOGLE FONTS */
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+/* AJUSTES GENERALES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    height: 2000px;
+}
+
+a:link,a:visited{
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* HEADER */
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+header nav{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+header nav a:hover{
+    transform: scale(1.09);
+}
+
+/* MAIN */
+section.intro {
+    background-image: linear-gradient(rgb(37, 37, 37), rgb(34, 34, 34));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.intro img {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+section.intro article {
+    color: whitesmoke;
+    text-align: left;
+}
+
+section.intro article h1 {
+    font-size: 100px;
+}
+
+section.intro article h3 {
+    font-size: 40px;
+}
+
+nav.busqueda {
+    margin: 10px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+nav.busqueda div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav.busqueda div.buscar {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+
+nav.busqueda div.buscar input {
+    height: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    outline: none;
+    color: grey;
+}
+
+nav.busqueda div.buscar input:focus {
+    outline: none;
+}
+
+nav.busqueda div.buscar input::placeholder {
+    font-family: 'Roboto';
+    padding: 5px;
+}
+
+nav.busqueda div.buscar span {
+    color: grey;
+    cursor: pointer;
+}
+
+/* CUADROS */
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 25px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid black;
+    border-radius: 10px;
+    width: 320px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+}
+
+.imagenes img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+    
+.box .informacion {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+.box .informacion #precio {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.box .informacion #titulo {
+    font-size: 20px;
+}
